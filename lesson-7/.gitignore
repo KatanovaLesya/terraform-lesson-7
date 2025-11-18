@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+*.log
+
+# Docker
+docker-compose.override.yml
+.env
+.env.*
+.DS_Store
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+
+# Kubernetes
+.kube/
+kubeconfig.yaml
+
+# Helm
+charts/*/*.tgz
+Chart.lock
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Credentials
+*.pem
+*.key
+*.crt
+aws_credentials
