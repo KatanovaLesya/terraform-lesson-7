@@ -18,3 +18,5 @@ cluster_name  = "lesson-7-eks"
 ecr_repo_name = "lesson-7-ecr"
 app_image_tag = "v1"
 app_port      = 8000
+
+ecr_name = "lesson-7-django-ecr"

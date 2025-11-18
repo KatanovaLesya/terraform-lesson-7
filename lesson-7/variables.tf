@@ -1,9 +1,9 @@
 variable "region" {
   description = "AWS region"
   type        = string
+  default     = "us-east-1"
 }
 
-# VPC з попереднього ДЗ (ми її reuse-имо)
 variable "vpc_id" {
   description = "VPC ID для EKS"
   type        = string
@@ -64,4 +64,10 @@ variable "app_port" {
   description = "Port, на якому слухає Django"
   type        = number
   default     = 8000
+}
+
+variable "ecr_name" {
+  description = "Назва ECR репозиторію для Django"
+  type        = string
+  default     = "lesson-7-django-ecr"
 }

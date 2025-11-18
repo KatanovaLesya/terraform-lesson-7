@@ -1,1 +1,0 @@
-# terraform-lesson-7
